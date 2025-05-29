@@ -212,3 +212,8 @@ Die GD Library wird für alle Bildoperationen verwendet:
 **Problem: WebP nicht verfügbar**
 - GD Library muss mit WebP-Support kompiliert sein
 - Check mit `debug.php` → GD Info
+
+
+
+![Image-Compression](https://github.com/user-attachments/assets/5761854d-035b-4b28-a363-b4ff4a0c0fa2)
+
