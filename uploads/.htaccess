@@ -1,0 +1,26 @@
+# .htaccess für uploads Verzeichnis
+# Dateipfad: /image-compressor/uploads/.htaccess
+
+# Verhindere Ausführung von PHP-Dateien
+<FilesMatch "\.ph(p[2-7]?|tml)$">
+    SetHandler None
+    ForceType text/plain
+</FilesMatch>
+
+# Verweigere direkten Zugriff auf alle Dateien
+Order Deny,Allow
+Deny from all
+
+# Erlaube nur Bilddateien (optional - wenn Sie direkten Zugriff erlauben möchten)
+# <FilesMatch "\.(jpg|jpeg|png|gif|webp)$">
+#     Order Allow,Deny
+#     Allow from all
+# </FilesMatch>
+
+# Deaktiviere Directory Listing
+Options -Indexes
+
+# Zusätzliche Sicherheit
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
