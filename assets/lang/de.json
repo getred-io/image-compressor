@@ -1,0 +1,146 @@
+{
+  "app": {
+    "title": "Bildkomprimierung",
+    "subtitle": "Laden Sie bis zu 50 Bilder gleichzeitig hoch"
+  },
+  "upload": {
+    "dragDrop": "Dateien hier ablegen oder klicken zum Auswählen",
+    "maxFiles": "Maximal 50 Dateien gleichzeitig",
+    "selectImages": "Bitte wählen Sie nur Bilddateien aus.",
+    "remainingSlots": "Sie können nur noch {count} Dateien hochladen.",
+    "uploadProgress": "{current} von {total} Dateien hochgeladen",
+    "selectedFiles": "Ausgewählte Dateien",
+    "noFilesToProcess": "Keine Dateien zum Verarbeiten vorhanden. Bitte laden Sie zuerst Bilder hoch.",
+    "noNewFilesToProcess": "Keine neuen Dateien zum Verarbeiten vorhanden. Bitte laden Sie zuerst Bilder hoch.",
+    "progressTitle": "Upload-Fortschritt"
+  },
+  "analysis": {
+    "title": "Bildanalyse abgeschlossen",
+    "summary": "Analyse-Zusammenfassung",
+    "totalFiles": "{count} Dateien",
+    "totalSize": "mit einer Gesamtgröße von",
+    "recommendedFormat": "Empfohlenes Format",
+    "estimatedSavings": "Geschätzte Einsparung",
+    "selectFormat": "Ausgabeformat wählen",
+    "quality": "Qualität",
+    "processButton": "Bilder verarbeiten",
+    "processing": "Verarbeite {current}/{total} Dateien...",
+    "withFormat": "mit {format}",
+    "sizeIncrease": "Mit {format} könnte die Dateigröße um <strong class=\"savings-negative\">{size}</strong> ({percentage}%) zunehmen"
+  },
+  "formats": {
+    "jpeg": "JPEG",
+    "png": "PNG",
+    "webp": "WebP",
+    "hints": {
+      "jpegTransparency": "Hinweis: JPEG unterstützt keine Transparenz. Transparente Bereiche werden mit weißem Hintergrund gefüllt.",
+      "pngEfficiency": "Hinweis: PNG eignet sich besonders für Grafiken mit scharfen Kanten. Für Fotos ist JPEG oder WebP meist effizienter.",
+      "webpCompatibility": "Hinweis: WebP bietet die beste Kompression, wird aber nicht von allen älteren Browsern unterstützt."
+    }
+  },
+  "results": {
+    "title": "Verarbeitete Bilder",
+    "downloadOptions": "Download-Optionen",
+    "downloadZip": "Alle als ZIP herunterladen",
+    "downloadSingle": "Einzeln herunterladen",
+    "newSession": "Neue Session starten",
+    "downloadManager": "Download Manager öffnen",
+    "clickThumbnails": "Klicken Sie auf die Vorschaubilder, um einzelne Dateien herunterzuladen",
+    "statistics": "Gesamtstatistik",
+    "original": "Original",
+    "compressed": "Komprimiert",
+    "savings": "Einsparung",
+    "saved": "gespart",
+    "newFilesProcessed": "{count} neue Datei(en) erfolgreich verarbeitet!",
+    "totalFilesAvailable": "Insgesamt {count} Dateien verfügbar.",
+    "processingRunning": "Verarbeitung läuft..."
+  },
+  "errors": {
+    "uploadFailed": "Upload fehlgeschlagen",
+    "processingFailed": "Fehler bei der Bildverarbeitung",
+    "unknownError": "Unbekannter Fehler",
+    "fileNotFound": "Datei nicht gefunden",
+    "timeout": "Zeitüberschreitung. Bitte versuchen Sie es mit weniger Dateien.",
+    "invalidResponse": "Ungültige Server-Antwort",
+    "filesFailedProcessing": "{count} Datei(en) konnten nicht verarbeitet werden:",
+    "checkConsole": "Unbekannter Fehler. Bitte prüfen Sie die Konsole.",
+    "methodNotAllowed": "Methode nicht erlaubt",
+    "noFileUploaded": "Keine Datei hochgeladen oder Fehler beim Upload",
+    "maxFilesReached": "Maximale Anzahl von {max} Dateien erreicht",
+    "unsupportedFileType": "Nicht unterstützter Dateityp: {type}",
+    "fileTooLarge": "Datei zu groß. Maximum: {max}",
+    "saveFileFailed": "Fehler beim Speichern der Datei",
+    "invalidImageFile": "Ungültige Bilddatei",
+    "noFilesToAnalyze": "Keine Dateien zum Analysieren gefunden",
+    "noFileIdSpecified": "Keine Datei-ID angegeben",
+    "fileNotFoundInSession": "Datei nicht in Session gefunden",
+    "originalFileNotFound": "Originaldatei nicht auf Server gefunden",
+    "imageProcessingFailed": "Fehler bei der Bildverarbeitung",
+    "imageLoadFailed": "Bilddatei konnte nicht geladen werden",
+    "unsupportedFormat": "Nicht unterstütztes Ausgabeformat",
+    "webpNotSupported": "WebP wird auf diesem Server nicht unterstützt",
+    "directoryCreationFailed": "Konnte Verzeichnis nicht erstellen: {directory}",
+    "zipCreationFailed": "Konnte ZIP-Archiv nicht erstellen",
+    "noFilesForZip": "Keine Dateien zum Archivieren gefunden",
+    "insufficientSpace": "Nicht genügend Speicherplatz verfügbar",
+    "copyFileFailed": "Fehler beim Kopieren der Datei",
+    "deleteOriginalFailed": "Fehler beim Löschen der Originaldatei"
+  },
+  "confirmations": {
+    "newSession": "Möchten Sie wirklich eine neue Session starten? Alle aktuellen Dateien werden gelöscht."
+  },
+  "footer": {
+    "copyright": "© 2025 marcbackes.net - Image Compressor"
+  },
+  "fileSize": {
+    "bytes": "B",
+    "kilobytes": "KB",
+    "megabytes": "MB",
+    "gigabytes": "GB"
+  },
+  "downloadManager": {
+    "title": "Download Manager",
+    "filesProcessed": "{count} Datei(en) verarbeitet",
+    "downloadAllZip": "Alle als ZIP herunterladen",
+    "downloadSelectedZip": "Ausgewählte als ZIP herunterladen",
+    "selectAll": "Alle auswählen",
+    "deselectAll": "Auswahl aufheben",
+    "filename": "Dateiname",
+    "original": "Original",
+    "compressed": "Komprimiert",
+    "savings": "Einsparung",
+    "actions": "Aktionen",
+    "download": "Download",
+    "totalStatistics": "Gesamtstatistik",
+    "totalSavings": "Gesamteinsparung",
+    "newSession": "Neue Session starten",
+    "backToOverview": "Zurück zur Übersicht",
+    "selectAtLeastOne": "Bitte wählen Sie mindestens eine Datei aus."
+  },
+  "tooltips": {
+    "uploadArea": "Klicken Sie hier oder ziehen Sie Bilder hierher",
+    "qualitySlider": "Höhere Werte = bessere Qualität, größere Dateien",
+    "formatJpeg": "Beste Kompression für Fotos",
+    "formatPng": "Unterstützt Transparenz, gut für Grafiken",
+    "formatWebp": "Moderne Kompression, beste Dateigröße",
+    "downloadSingle": "Einzelne Datei herunterladen",
+    "selectAllFiles": "Alle Dateien auswählen",
+    "deselectAllFiles": "Auswahl aufheben",
+    "thumbnail": "Klicken zum Herunterladen"
+  },
+  "altTexts": {
+    "uploadIcon": "Upload-Symbol",
+    "thumbnail": "Vorschau von {filename}",
+    "processedImage": "Verarbeitetes Bild: {filename}",
+    "languageFlag": "Sprache wechseln",
+    "loadingSpinner": "Ladeanimation"
+  },
+  "accessibility": {
+    "skipToContent": "Zum Hauptinhalt springen",
+    "mainNavigation": "Hauptnavigation",
+    "closeButton": "Schließen",
+    "expandButton": "Erweitern",
+    "collapseButton": "Minimieren",
+    "languageSelector": "Sprachauswahl"
+  }
+}

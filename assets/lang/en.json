@@ -1,0 +1,146 @@
+{
+  "app": {
+    "title": "Image Compression",
+    "subtitle": "Upload up to 50 images at once"
+  },
+  "upload": {
+    "dragDrop": "Drop files here or click to select",
+    "maxFiles": "Maximum 50 files at once",
+    "selectImages": "Please select only image files.",
+    "remainingSlots": "You can only upload {count} more files.",
+    "uploadProgress": "{current} of {total} files uploaded",
+    "selectedFiles": "Selected Files",
+    "noFilesToProcess": "No files to process. Please upload images first.",
+    "noNewFilesToProcess": "No new files to process. Please upload images first.",
+    "progressTitle": "Upload-Progress"
+  },
+  "analysis": {
+    "title": "Image Analysis Complete",
+    "summary": "Analysis Summary",
+    "totalFiles": "{count} files",
+    "totalSize": "with a total size of",
+    "recommendedFormat": "Recommended format",
+    "estimatedSavings": "Estimated savings",
+    "selectFormat": "Select output format",
+    "quality": "Quality",
+    "processButton": "Process Images",
+    "processing": "Processing {current}/{total} files...",
+    "withFormat": "with {format}",
+    "sizeIncrease": "With {format} the file size could increase by <strong class=\"savings-negative\">{size}</strong> ({percentage}%)"
+  },
+  "formats": {
+    "jpeg": "JPEG",
+    "png": "PNG",
+    "webp": "WebP",
+    "hints": {
+      "jpegTransparency": "Note: JPEG does not support transparency. Transparent areas will be filled with white background.",
+      "pngEfficiency": "Note: PNG is particularly suitable for graphics with sharp edges. For photos, JPEG or WebP is usually more efficient.",
+      "webpCompatibility": "Note: WebP offers the best compression but is not supported by all older browsers."
+    }
+  },
+  "results": {
+    "title": "Processed Images",
+    "downloadOptions": "Download Options",
+    "downloadZip": "Download all as ZIP",
+    "downloadSingle": "Download individually",
+    "newSession": "Start new session",
+    "downloadManager": "Open Download Manager",
+    "clickThumbnails": "Click on thumbnails to download individual files",
+    "statistics": "Total Statistics",
+    "original": "Original",
+    "compressed": "Compressed",
+    "savings": "Savings",
+    "saved": "saved",
+    "newFilesProcessed": "{count} new file(s) successfully processed!",
+    "totalFilesAvailable": "Total {count} files available.",
+    "processingRunning": "Processing..."
+  },
+  "errors": {
+    "uploadFailed": "Upload failed",
+    "processingFailed": "Error processing image",
+    "unknownError": "Unknown error",
+    "fileNotFound": "File not found",
+    "timeout": "Timeout. Please try with fewer files.",
+    "invalidResponse": "Invalid server response",
+    "filesFailedProcessing": "{count} file(s) could not be processed:",
+    "checkConsole": "Unknown error. Please check the console.",
+    "methodNotAllowed": "Method not allowed",
+    "noFileUploaded": "No file uploaded or upload error",
+    "maxFilesReached": "Maximum number of {max} files reached",
+    "unsupportedFileType": "Unsupported file type: {type}",
+    "fileTooLarge": "File too large. Maximum: {max}",
+    "saveFileFailed": "Failed to save file",
+    "invalidImageFile": "Invalid image file",
+    "noFilesToAnalyze": "No files found to analyze",
+    "noFileIdSpecified": "No file ID specified",
+    "fileNotFoundInSession": "File not found in session",
+    "originalFileNotFound": "Original file not found on server",
+    "imageProcessingFailed": "Error processing image",
+    "imageLoadFailed": "Failed to load image file",
+    "unsupportedFormat": "Unsupported output format",
+    "webpNotSupported": "WebP is not supported on this server",
+    "directoryCreationFailed": "Failed to create directory: {directory}",
+    "zipCreationFailed": "Failed to create ZIP archive",
+    "noFilesForZip": "No files found to archive",
+    "insufficientSpace": "Insufficient storage space available",
+    "copyFileFailed": "Failed to copy file",
+    "deleteOriginalFailed": "Failed to delete original file"
+  },
+  "confirmations": {
+    "newSession": "Do you really want to start a new session? All current files will be deleted."
+  },
+  "footer": {
+    "copyright": "© 2025 marcbackes.net - Image Compressor"
+  },
+  "fileSize": {
+    "bytes": "B",
+    "kilobytes": "KB",
+    "megabytes": "MB",
+    "gigabytes": "GB"
+  },
+  "downloadManager": {
+    "title": "Download Manager",
+    "filesProcessed": "{count} file(s) processed",
+    "downloadAllZip": "Download all as ZIP",
+    "downloadSelectedZip": "Download selected as ZIP",
+    "selectAll": "Select all",
+    "deselectAll": "Deselect all",
+    "filename": "Filename",
+    "original": "Original",
+    "compressed": "Compressed",
+    "savings": "Savings",
+    "actions": "Actions",
+    "download": "Download",
+    "totalStatistics": "Total Statistics",
+    "totalSavings": "Total Savings",
+    "newSession": "Start new session",
+    "backToOverview": "Back to overview",
+    "selectAtLeastOne": "Please select at least one file."
+  },
+  "tooltips": {
+    "uploadArea": "Click here or drag images here",
+    "qualitySlider": "Higher values = better quality, larger files",
+    "formatJpeg": "Best compression for photos",
+    "formatPng": "Supports transparency, good for graphics",
+    "formatWebp": "Modern compression, best file size",
+    "downloadSingle": "Download single file",
+    "selectAllFiles": "Select all files",
+    "deselectAllFiles": "Deselect all",
+    "thumbnail": "Click to download"
+  },
+  "altTexts": {
+    "uploadIcon": "Upload icon",
+    "thumbnail": "Preview of {filename}",
+    "processedImage": "Processed image: {filename}",
+    "languageFlag": "Change language",
+    "loadingSpinner": "Loading animation"
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content",
+    "mainNavigation": "Main navigation",
+    "closeButton": "Close",
+    "expandButton": "Expand",
+    "collapseButton": "Collapse",
+    "languageSelector": "Language selection"
+  }
+}
